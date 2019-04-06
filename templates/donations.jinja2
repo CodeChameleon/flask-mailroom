@@ -3,6 +3,12 @@
 {% block subtitle %}Donations{% endblock subtitle %}
 
 {% block content %}
+{% if donor %}
+    <div class="alert alert-success fade in">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        Successfully added donation for <strong>{{ donor }}</strong>
+    </div>
+{% endif %}
 <ul>
     {% for donation in donations %}
         <li><b>{{ donation.donor.name }}</b>: {{ donation.value }}</li>
