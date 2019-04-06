@@ -1,6 +1,10 @@
 # Flask Mailroom Application
 
-Running at [http://afternoon-reef-51666.herokuapp.com/donations/](http://afternoon-reef-51666.herokuapp.com/donations/).
+Running at [http://quiet-badlands-11848.herokuapp.com/donations/](http://quiet-badlands-11848.herokuapp.com/donations/).
+
+Updates to assignment:
+For optional item 1 I included added an error to display if either the donor does not exist or the number is not an integer.
+I also included a success message to display on the donations list page after adding a donation. The donor name is carried in the query parameters.
 
 ## Your Task
 
